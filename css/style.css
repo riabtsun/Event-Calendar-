@@ -1,0 +1,46 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.maket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.maket img {
+  width: 200px;
+  margin-right: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 0;
+}
+
+table th {
+  text-transform: capitalize;
+  padding: 3px;
+}
+
+table td:first-of-type {
+  padding: 3px;
+}
+
+.event {
+  padding: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #55da72;
+}
+
+.event p {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
