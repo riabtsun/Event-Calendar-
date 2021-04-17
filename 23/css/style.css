@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px; }
+
+.maket {
+  display: flex; }
+  .maket img {
+    width: 200px;
+    margin-right: 5px; }
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0; }
+  table th, table td {
+    border: 1px solid black;
+    padding: 0; }
+  table th {
+    text-transform: capitalize;
+    padding: 3px; }
+  table td:first-of-type {
+    padding: 3px; }
+
+.event {
+  padding: 3px;
+  box-sizing: border-box; }
+  .event p {
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
