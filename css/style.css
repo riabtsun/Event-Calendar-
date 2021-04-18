@@ -57,4 +57,25 @@ table td:first-of-type {
 .event select [data-name='usersSelect'] {
   margin: 10px 0;
 }
+
+.calendar__options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.calendar__options a {
+  text-decoration: none;
+  padding: 6px 10px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  background: #d8d8d8ad;
+}
+
+.calendar__options a:hover {
+  background-color: #bbeba5;
+}
 /*# sourceMappingURL=style.css.map */

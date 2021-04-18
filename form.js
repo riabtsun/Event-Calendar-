@@ -38,7 +38,6 @@ form.addEventListener('submit', function (e) {
     data[selectedDayValue][selectedHourValue] = {
       name: inputNameValue,
       users: selectedUsersValue
-
     }
 
     localStorage[calendarName] = JSON.stringify(data)
